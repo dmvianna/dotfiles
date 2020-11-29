@@ -10,8 +10,8 @@ Account gmail
 
 MaildirStore gmail-local
 Subfolders Verbatim
-Path ~/.mail/gmail/
-Inbox ~/.mail/gmail/Inbox
+Path ~/Maildir/gmail/
+Inbox ~/Maildir/gmail/Inbox
 
 Channel gmail
 Master :gmail-remote:
