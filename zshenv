@@ -31,3 +31,7 @@ if [ -e /home/dmvianna/.nix-profile/etc/profile.d/nix.sh ]; then . /home/dmviann
 
 if [ -f /home/dmvianna/.secret_env ]; then source ~/.secret_env; fi
 . "$HOME/.cargo/env"
+
+# >>> coursier install directory >>>
+export PATH="$PATH:$HOME/.local/share/coursier/bin"
+# <<< coursier install directory <<<
