@@ -38,3 +38,8 @@ if [ -f /home/dmvianna/.secret_env ]; then source ~/.secret_env; fi
 # >>> coursier install directory >>>
 export PATH="$PATH:$HOME/.local/share/coursier/bin"
 # <<< coursier install directory <<<
+
+[ -f "/home/dmvianna/.ghcup/env" ] && source "/home/dmvianna/.ghcup/env" # ghcup-env
+
+export DENO_INSTALL="/home/dmvianna/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
